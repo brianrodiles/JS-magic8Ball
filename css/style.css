@@ -1,6 +1,6 @@
 body{
     color: #fff;
-    background-image: url("/resources/fTBack.jpg");
+    background-image: url("./resources/backImage.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: relative;
