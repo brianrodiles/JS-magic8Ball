@@ -91,7 +91,7 @@ function goingHome(){
         setInterval(() => {
             counter.innerText = count;
             count--;
-            if(count <= 0) location.replace('https://brianrodiles.github.io/magic8Ball/');
+            if(count <= 0) location.replace('/index.html');
         }, 1000)
 }
 
