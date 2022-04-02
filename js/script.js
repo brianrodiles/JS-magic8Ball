@@ -1,4 +1,4 @@
-let audio = new Audio('js/backgroundSong.mp3');
+let audio = new Audio('./resources/backgroundSong.mp3');
 audio.volume = 0.5;
 audio.loop = true;
 audio.autoplay = true;
