@@ -1,4 +1,4 @@
-let audio = new Audio('/backgroundSong.mp3');
+let audio = new Audio('backgroundSong.mp3');
 audio.volume = 0.5;
 audio.loop = true;
 audio.autoplay = true;
@@ -65,7 +65,7 @@ form.addEventListener('submit', (e) => {
         form.parentNode.replaceChild(newItem, form);
         let randomIndex = Math.floor(Math.random() * (21 - 1)) + 1;
         let randomImage = arrImages[randomIndex];
-        nextImage = `/imagesForRandom/${randomImage}`;
+        nextImage = `imagesForRandom/${randomImage}`;
         fadeOut();
         let count = 3;
         setInterval(() => {
